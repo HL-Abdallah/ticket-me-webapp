@@ -8,7 +8,7 @@ const HomePageSection = ({imgSrc,imageFirst}) => {
       if (imageFirst) {
           return ( 
             <Stack direction="row" sx={{justifyContent : "space-around" , alignItems : "center" , mb : 16}}>
-                <img alt='section-image-alt' src={imgSrc} width="330px" height="450px" ></img>
+                <img alt='section-image-alt' src={imgSrc} width="330px" height="450px" />
                     <Typography sx={{}} variant="h6" color="initial">
                         Systeme de gestion de tickets & reclamations
                     </Typography>
