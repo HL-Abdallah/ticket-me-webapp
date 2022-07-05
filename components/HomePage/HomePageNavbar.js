@@ -19,9 +19,11 @@ const HomePageNavbar = () => {
                 S'inscrire
                 </Button>
             </Link>
+            <Link href="/signin" style={{ textDecoration: 'none' }} >
             <Button disableRipple variant="text" color="inherit">
             Se Connecter
             </Button>
+            </Link>
         </Stack>
       </Toolbar>
     </AppBar>

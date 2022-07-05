@@ -1,9 +1,15 @@
+import { Stack } from '@mui/material'
 import React from 'react'
+import SignLeftSide from '../../components/Signing/SignLeftSide'
+import SignInRight from '../../components/Signing/SignInRight'
 
 const index = () => {
   return (
-    <h1>Sign In Page</h1>
-  )
+  <Stack direction='row'>
+      <SignLeftSide/>
+      <SignInRight/>
+    </Stack>
+    )
 }
 
 export default index
